@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    background-image: url("../images/Totoro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.quizmain {
+    /* background-image: image("../images/Totoro.jpg"); */
+    max-height: 500px;
+    min-height: 300px;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 8;
+    padding: 25px;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 25px;
+}
+
+.resultsdiv {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px 15px
+}
+
+.quizmain .quizheading {
+    min-height: 50px;
+    background-color: #72715F;
+    border-radius: 8px;
+}
+
+.quizmain .quizoptions {
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px 15px
+}
+
+.quizmain .quizquestion {
+    min-height: 100px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px 15px
+}
